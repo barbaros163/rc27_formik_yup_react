@@ -45,7 +45,7 @@ const Login = () => {
   }, [currentUser]);
 
   useEffect(() => {
-    error && toastErrorNotify("Login can not e performed");
+    error && toastErrorNotify("Login can not be performed");
   }, [error]);
 
   return (
